@@ -1,0 +1,83 @@
+.Playstation{
+    background-image: url(./imagens/play-bg-2.jpg);
+    width: auto;
+}
+
+.texto-logo{
+    margin-top: 10px;
+    display: inline;
+    align-items: center;   
+}
+
+.logo {
+    width: 5rem;
+    padding: 3px 3px;
+}
+
+.cabecalho{
+    display: flex;
+    padding-top: 5rem;
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;        
+}
+
+.caixa__mes{
+    border: 3px solid whitesmoke;
+}
+
+h2 {
+    text-align: center;
+    vertical-align: top;
+    padding: 30px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none
+}
+
+.imagem__mes{
+    width: 100%;
+    margin: 5px 0;
+    padding-bottom: 16px;
+}
+
+.caixa{
+    margin:100px auto;
+    width: 840px;
+}
+
+footer{
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    padding: 5px 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .logo{
+        width: 20rem;
+        padding: 5px 5px;
+    }    
+
+    .cabecalho{
+        display: flex;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .h2{
+        font-size: 30px;
+    }
+
+    footer{
+        height: 2rem;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 1rem;
+    }
+}
